@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="" id="title">Угадай номер!</h1>
+    <h3>Введите число</h3>
+    <br>
+    <input type="text"  id="num">
+    <br> <br>
+    <button id="check" onclick="game()">Попробоват</button>
+    <button id="reset" onclick="document.location.reload()" >Сброс</button>
+    <p id="res">Резултать</p>
+    <p class="" id="times">Количество попиток: <span id="nTime">0</span></p>
+    
+    <style>
+    body{
+        text-align: center;
+        
+    }
+    #check{
+        background-color: blueviolet;
+        color: #000;
+    }
+    #reset{
+        background-color: green;
+        color: #000;
+        display: none;
+    }
+    #res{
+        font-size: 20px;
+        color: #000;
+    }
+    </style>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
